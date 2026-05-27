@@ -486,3 +486,6 @@ async function startServer() {
 }
 
 startServer();
+
+// Load environment variables 
+// (I am adding this comment to force a redeploy)
