@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #60de8c; /* Green Accent */
+  --color-primary-container: #30b568;
+  --color-surface: #0a0a0a;
+  --color-background: #050505;
+  --color-surface-card: #0f0f12;
+  --color-on-surface-variant: #b0b4bd;
+  --color-outline-variant: #2a2a30;
+  --color-surface-container-low: #0d0d10;
+  --color-surface-container-lowest: #020202;
+}
+
+body {
+  background-color: #050505;
+  color: #eeeeee;
+  font-family: var(--font-sans);
+}
+
+.noise-bg {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+}
+
+.glow-purple {
+  background: radial-gradient(circle, rgba(129,140,248,0.08) 0%, rgba(5,5,5,0) 70%);
+}
+
+.glow-indigo {
+  background: radial-gradient(circle, rgba(79,70,229,0.08) 0%, rgba(5,5,5,0) 70%);
+}
+
+.glow-green {
+  background: radial-gradient(circle, rgba(96,222,140,0.12) 0%, rgba(5,5,5,0) 70%);
+}
+

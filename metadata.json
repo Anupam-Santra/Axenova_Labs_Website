@@ -1,0 +1,6 @@
+{
+  "name": "Axenova Labs",
+  "description": "Secure application portal and Google OAuth 2.0 authentication service for Axenova Labs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
